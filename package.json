@@ -1,0 +1,17 @@
+{
+  "name": "hexo-sync",
+  "version": "0.0.4",
+  "description": "writing on web",
+  "main": "index.js",
+  "scripts": {},
+  "author": "rise0chen",
+  "repository": "rise0chen/hexo-sync",
+  "keywords": [
+    "sync",
+    "console"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
