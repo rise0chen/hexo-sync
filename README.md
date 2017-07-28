@@ -1,29 +1,24 @@
 # hexo-sync
 Sync article module for [Hexo](http://hexo.io/).
-you can writ on web.
 
 ## Installation
-``` bash
-$ npm install hexo-sync --save
+```bash
+npm install hexo-sync --save
 ```
 
 ## Usage
-``` bash
-$ hexo sync
-```
-
-Option | Description | Default
--------|-------------|----------
-`-r`, `--rename` | rename file | null
-`-c`, `--cover`  | cover file  | null
-
-## Options
-``` yaml
+1.sign up and login in on http://tool.crise.cn/Hexo/write .
+2.write on [web](http://tool.crise.cn/Hexo/write).
+3.configure this plugin in `_config.yml`.
+```yaml
 sync:
-  Username: username
-  Password: 123456
+  username: <username>
+  password: <password>
 ```
-you can sign up on http://blog.crise.cn/writ
+4.sync writing.
+```bash
+hexo sync
+```
 
 ## License
 MIT
