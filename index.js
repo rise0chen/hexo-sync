@@ -40,7 +40,7 @@ requestTask = function(){
         }
       });
     }else{
-      console.log("Can't connect net.");
+      console.log('net:'+response);
     }
   });
 }

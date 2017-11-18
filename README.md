@@ -1,29 +1,31 @@
 # hexo-sync
-Sync article plugin for [Hexo](http://hexo.io/).
+[Hexo](http://hexo.io/)上的文章同步 插件。
 
-## Installation
+## 介绍
+
+## 安装
 ```bash
 npm install hexo-sync --save
 ```
 
-## Usage
-1.sign up and login in on [http://tool.crise.cn/Hexo/write](http://tool.crise.cn/Hexo/write)  
-2.write on [web](http://tool.crise.cn/Hexo/write)  
-3.configure this plugin in `_config.yml`  
+## 使用
+1.注册并登录[http://tool.crise.cn/Hexo/write](http://tool.crise.cn/Hexo/write)  
+2.在[网页](http://tool.crise.cn/Hexo/write)上写作  
+3.编辑`_config.yml`文件  
 ```yaml
 sync:
   username: <username>
   password: <password>
 ```
-4.sync writing to your computer using this plugin  
+4.使用插件同步文章到电脑上  
 ```bash
 hexo sync
 ```
 
-## License
+## 许可证
 MIT
 
-## Reference
-[my blog](http://blog.crise.cn/about/hexo.html)  
+## 相关链接
+[我的博客](http://blog.crise.cn/about/hexo.html)  
 [github](https://github.com/rise0chen/hexo-sync)  
-[editor on web](http://tool.crise.cn/Hexo/write)  
+[编辑器](http://tool.crise.cn/Hexo/write)  

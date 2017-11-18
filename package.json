@@ -1,6 +1,6 @@
 {
   "name": "hexo-sync",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "writing on web",
   "main": "index.js",
   "author": "rise0chen",
