@@ -9,15 +9,16 @@ npm install hexo-sync --save
 ```
 
 ## 使用
-1.注册并登录[http://tool.crise.cn/Hexo/write](http://tool.crise.cn/Hexo/write)  
-2.在[网页](http://tool.crise.cn/Hexo/write)上写作  
+1.注册并登录[http://user.crise.cn/](http://user.crise.cn/)  
+2.在[http://user.crise.cn/Index/info](http://user.crise.cn/Index/info)上查看密钥  
 3.编辑`_config.yml`文件  
 ```yaml
 sync:
-  username: <username>
-  password: <password>
+  uname: <uname>
+  secret: <secret>
 ```
-4.使用插件同步文章到电脑上  
+4.在[网页](http://tool.crise.cn/Hexo/write)上写作  
+5.使用插件同步文章到电脑上  
 ```bash
 hexo sync
 ```

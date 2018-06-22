@@ -7,15 +7,16 @@ npm install hexo-sync --save
 ```
 
 ## Usage
-1.sign up and login in on [http://tool.crise.cn/Hexo/write](http://tool.crise.cn/Hexo/write)  
-2.write on [web](http://tool.crise.cn/Hexo/write)  
+1.sign up and login in on [http://user.crise.cn/](http://user.crise.cn/)  
+2.get secret on [http://user.crise.cn/Index/info](http://user.crise.cn/Index/info)  
 3.configure this plugin in `_config.yml`  
 ```yaml
 sync:
-  username: <username>
-  password: <password>
+  uname: <uname>
+  secret: <secret>
 ```
-4.sync writing to your computer using this plugin  
+4.write on [web](http://tool.crise.cn/Hexo/write)  
+5.sync writing to your computer using this plugin  
 ```bash
 hexo sync
 ```
